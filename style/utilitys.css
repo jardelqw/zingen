@@ -32,6 +32,8 @@
 
 @media (width>= 80em) {
   .container{
+    margin: auto;
+    max-width: 80rem;
     --max-width:80rem:
   }
   .desktop-only{
