@@ -7,7 +7,7 @@
   border-bottom-right-radius: 1.5rem;
 
   & .container{
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
   & strong{
     font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
