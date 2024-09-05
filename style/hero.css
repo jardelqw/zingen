@@ -1,0 +1,51 @@
+#hero{
+ text-align: center;
+
+ /* background:url(../assets/icon/bg-hero-desktop.svg)no-repeat bottom center/contain; */
+ 
+ & .buttons{
+  justify-content: center;
+  margin-top: 2rem;
+
+ }
+
+ & h1{
+  margin-top: 1rem;
+ }
+
+ & p{
+  font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
+  color: var(--text-color-sec);
+  margin-top: .5rem;
+ }
+
+ & img [src*="music"]{
+  width: 12.875rem;
+
+ }
+}
+
+@media(width>=80rem){
+  #hero{
+    /* border: solid violet; */
+    background: url(../assets/icon/Hero\ section.svg) no-repeat bottom 
+    /* center/contain  */
+    ;
+    padding-bottom: 15rem;
+    
+    &img[src*="music"]{
+      width: 25.75rem;
+    }
+    & p{
+      margin-top: 1rem;
+      font-size: 2.5rem;
+    }
+
+    & h1{
+      margin-top: 1.5rem;
+    }
+  }
+  & .buttons{
+    margin-top: 3rem;
+  }
+}

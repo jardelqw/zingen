@@ -1,0 +1,39 @@
+#smartphone-img{
+  /* border: solid violet; */
+  background: url(../assets/icon/bg-hero-phone.svg) no-repeat top/cover;
+  /* width: fit-content; */
+  margin-top: 5rem;
+  
+
+}
+
+
+
+@media  (width>=80em){
+  #smartphone-img{
+    display: none;
+ 
+  }
+}
+
+section{
+  & header{
+    & strong{
+      font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
+      display: block;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+
+      color: var(--brand-color-pri);
+    }
+
+    & h2{
+      margin-top: .5rem;
+
+    }
+    & p{
+      margin-top: .5rem;
+      color: var(--text-color-sec);
+    }
+  }
+}

@@ -1,0 +1,37 @@
+#about{
+  background: var(--surface-color);
+  & strong{
+    font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
+    display: block;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: var(--brand-color-pri);
+  }
+
+  & h2{
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+
+  }
+  & p{
+    margin-top: .5rem;
+    color: var(--text-color-sec);
+  }
+
+  & .even-colums{
+    gap: 2rem;
+  }
+  
+}
+  @media (width >=80em){
+    & #about{
+
+      & h2{
+        font-size: 3rem;
+      }
+      
+    }
+  }

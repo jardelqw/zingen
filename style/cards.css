@@ -1,0 +1,25 @@
+.card {
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 1.5rem;
+
+  & h3{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+
+  }
+
+  & p{
+    font-size: 1rem;
+    margin-top: .5rem;
+    color: var(--text-color-sec);
+  }
+}
+
+@media (width >= 80em){
+  & .card{
+    & h3{
+      font-size: 2rem;
+    }
+  }
+}
