@@ -1,5 +1,7 @@
 #download{
-  position: relative;
+  .container{
+    position: relative;
+  }
   & .card{
     padding: 3rem 1.5rem 15rem;
 
